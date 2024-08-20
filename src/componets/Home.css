@@ -1,0 +1,55 @@
+/* Home.css */
+.container {
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .google-button {
+    background-color: #4285f4;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .google-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .github-button {
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .github-button:hover {
+    background-color: #24292e;
+  }
+  

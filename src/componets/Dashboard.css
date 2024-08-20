@@ -1,0 +1,46 @@
+/* Dashboard.css */
+.container {
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 2rem;
+  }
+  
+  .dashboard-header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .user-info strong {
+    font-weight: 600;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #888888;
+  }
+  
